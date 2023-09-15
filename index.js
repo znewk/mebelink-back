@@ -4,7 +4,7 @@ const cors = require('cors')
 const TelegramApi = require('node-telegram-bot-api')
 const db = require('./db')
 
-const token = '5625918326:AAH7TONcYqdB29nDI3kDezr6zX6jkkXD698'
+const token = '6410589422:AAHiOsSwOD7nWvv1yG7Edfd4fzKILezJS2U'
 
 const bot = new TelegramApi(token, {polling: true})
 
